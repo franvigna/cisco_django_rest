@@ -56,11 +56,11 @@ ROOT_URLCONF = 'drfCRUD.urls'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ALLOWED_ORIGINS = [    'http://127.0.0.1:8000/',]
+CORS_ALLOWED_ORIGINS = ['',]
 
-CORS_ALLOW_METHODS = [    'DELETE',    'GET',    'OPTIONS',    'PATCH',    'POST',    'PUT',]
+CORS_ALLOW_METHODS = ['DELETE','GET','OPTIONS','PATCH','POST','PUT',]
 
-CORS_ALLOW_HEADERS = [    'accept',    'accept-encoding',    'authorization',    'content-type',    'dnt',    'origin',    'user-agent',    'x-csrftoken',    'x-requested-with',]
+CORS_ALLOW_HEADERS = ['accept','accept-encoding','authorization','content-type','dnt','origin','user-agent','x-csrftoken','x-requested-with',]
 
 
 
