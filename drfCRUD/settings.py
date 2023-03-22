@@ -57,7 +57,7 @@ ROOT_URLCONF = 'drfCRUD.urls'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = [
-    'https://cisco-django-rest.onrender.com/',
+    'https://cisco-django-rest.onrender.com',
 ]
 
 
